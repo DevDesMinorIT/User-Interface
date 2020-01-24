@@ -1,7 +1,10 @@
+/* Steven Craig Moss Developer  for Lambda School */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
 
 html,
 body,
@@ -163,12 +166,28 @@ body {
 
 header {
       width: 100%;
+
 }
 
-ul {
+.container {
       display: flex;
+      justify-content: space-evenly;
+      margin: 0;
 }
 
 li {
       flex-direction: row;
+}
+
+
+
+.header-with-button {
+      display: inline-flex;
+      width: 49%;
+      flex-direction: row;
+
+}
+
+.image1 {
+      width: 50%;
 }
