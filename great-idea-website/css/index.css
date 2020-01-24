@@ -166,28 +166,56 @@ body {
 
 header {
       width: 100%;
+      display: inline-block;
 
 }
 
+/* this is the navigation bar */
 .container {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: flex-start;
       margin: 0;
 }
 
 li {
       flex-direction: row;
+      font-size: 20px;
+      margin-left: 60px;
 }
 
+a {
+      font-size: 10px;
+}
 
+nav {
+      width: 100%;
+}
 
-.header-with-button {
-      display: inline-flex;
-      width: 49%;
+img .logo {
+      margin-left: 10px;
+      float: right;
+}
+
+.cta {
+      display: inline;
       flex-direction: row;
+}
 
+.cta-content {
+      display: flex;
+      flex-direction: column;
 }
 
 .image1 {
       width: 50%;
+}
+
+h1 {
+      display font-size: 60px;
+}
+
+button {
+      height: 67px;
+      border: 3px solid black;
+      border-radius: : 3px;
 }
